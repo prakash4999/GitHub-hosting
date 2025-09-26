@@ -2,8 +2,6 @@ def subtract_numbers(a, b):
     return a - b
 
 # Example usage
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-result = subtract_numbers(num1, num2)
-print("The difference is:", result)
+def test_sub():
+    assert substract_numbers(5, 3) == 2
+    assert substract_numbers(1, 1) == 0
